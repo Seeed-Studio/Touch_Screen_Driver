@@ -7,7 +7,12 @@
 
 #include "pins_arduino.h"
 #include "wiring_private.h"
+
+#if (defined(__AVR__) || defined(__SAMD21G18A__))
 #include <avr/pgmspace.h>
+#else
+#include <pgmspace.h>
+#endif
 #include "SeeedTouchScreen.h"
 
 // increase or decrease the touchscreen oversampling. This is a little different than you make think:
