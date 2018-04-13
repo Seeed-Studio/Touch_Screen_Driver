@@ -46,7 +46,7 @@ void loop(void) {
   // a point object holds x y and z coordinates
   Point p = ts.getPoint();
 
-  if (p.z > __PRESURE) {
+  if (p.z > __PRESSURE) {
      Serial.print("Raw X = "); Serial.print(p.x);
      Serial.print("\tRaw Y = "); Serial.print(p.y);
      Serial.print("\tPressure = "); Serial.println(p.z);
@@ -58,7 +58,7 @@ void loop(void) {
   
   // we have some minimum pressure we consider 'valid'
   // pressure of 0 means no pressing!
-  if (p.z > __PRESURE) {
+  if (p.z > __PRESSURE) {
      Serial.print("X = "); Serial.print(p.x);
      Serial.print("\tY = "); Serial.print(p.y);
      Serial.print("\tPressure = "); Serial.println(p.z);
