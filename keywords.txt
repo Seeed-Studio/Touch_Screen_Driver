@@ -18,4 +18,4 @@ getPoint	KEYWORD2
 #######################################
 # Constants (LITERAL1)
 #######################################
-__PRESURE	LITERAL1
+__PRESSURE	LITERAL1

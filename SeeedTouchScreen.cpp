@@ -176,7 +176,7 @@ Point TouchScreen::getPoint(void) {
     }
 
 #if TSDEBUG
-    if(z > __PRESURE){
+    if(z > __PRESSURE){
         Serial.print("x1 = "); Serial.print(xx[0]);
         Serial.print("\tx2 = ");Serial.print(xx[1]);
         Serial.print("\ty2 = ");Serial.print(yy[0]);
@@ -190,6 +190,6 @@ Point TouchScreen::getPoint(void) {
 bool TouchScreen::isTouching(void)
 {
     Point p = getPoint();
-    if(p.z > __PRESURE)return 1;
+    if(p.z > __PRESSURE)return 1;
     else return 0;
 }

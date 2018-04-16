@@ -4,7 +4,8 @@
   (c) ladyada / adafruit
   Code under MIT License.
 */
-#define __PRESURE 10
+#define __PRESSURE 10
+#define __PRESURE __PRESSURE    // Previous misspelled macro left for backwards compatibility
 class Point {
     public:
     int x, y, z;
