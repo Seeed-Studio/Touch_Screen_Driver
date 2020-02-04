@@ -1,4 +1,4 @@
-Touch Screen Driver
+Touch Screen Driver  [![Build Status](https://travis-ci.com/Seeed-Studio/Touch_Screen_Driver.svg?branch=master)](https://travis-ci.com/Seeed-Studio/Touch_Screen_Driver)
 ---------------------------------------------------------
 
 ![](https://statics3.seeedstudio.com/images/product/2.8touch%20shieldv2.jpg)
